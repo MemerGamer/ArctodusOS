@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="icon.png" type="image/icon type">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/icon.png" type="image/icon type" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Arctodus OS</title>
-</head>
 
-<body>
-    <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-    <!-- Load the element definition -->
-    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
-    <!-- Simply set the `src` attribute to your MD file and win -->
-    <zero-md src="README.md"></zero-md>
-</body>
-
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Raleway:wght@500;700&display=swap");
+      body{
+        font-family: 'Rajdhani', sans-serif;
+        font-family: 'Raleway', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="markdown-body">
+      <p align="center">
+        <img
+          src="./img/arctodusos.png"
+          alt="ArctodusOS logo"
+          style="width: 300px"
+        />
+      </p>
+      <h2 align="center">
+        An Arch based GNU/Linux distribution optimized for gaming.
+      </h2>
+      <hr />
+      <h2 id="requirements">Requirements:</h2>
+      <p>Mininum:<br /></p>
+      <ul>
+        <li>
+          64 bit x86_64 processor (Intel/AMD), with atleast 2 CPU cores. (32-bit
+          not supported)
+        </li>
+        <li>Any GPU/iGPU with OpenGl 3.3+ support.</li>
+        <li>Atleast 2GB DDR3/DDR4 RAM.</li>
+        <li>
+          Atleast 20GB HDD/SSD storage. (Although installer will allow min
+          5.5GB)
+        </li>
+        <li>
+          Basic WPA/WPA2 compatible wifi card or ethernet supported motherboard.
+        </li>
+      </ul>
+      <p>Recommeded: <br /></p>
+      <ul>
+        <li>
+          64 bit x86_64 processor (Intel/AMD), with atleast 4 CPU cores. (32-bit
+          not supported)
+        </li>
+        <li>Any GPU/iGPU with OpenGl 3.3+ support.</li>
+        <li>4-8GB DDR4 RAM (more the better).</li>
+        <li>
+          50GB HDD/SSD Space (more the better) (practically you would use a
+          500GB/1TB HDD/SSD)
+        </li>
+        <li>WIFI and Ethernet Card.</li>
+      </ul>
+      <p><a href="">Download ISO</a> NOTE: working on it...</p>
+    </div>
+  </body>
 </html>

@@ -1,5 +1,5 @@
 <p align=center>
- <img src="./arctodusos.png" alt="ArctodusOS logo" style="width:300px;"/>
+ <img src="./img/arctodusos.png" alt="ArctodusOS logo" style="width:300px;"/>
 <h2 align=center>
 An Arch based GNU/Linux distribution optimized for gaming.
 </h2>
@@ -20,5 +20,5 @@ Recommeded: <br>
 * 50GB HDD/SSD Space (more the better) (practically you would use a 500GB/1TB HDD/SSD)
 * WIFI and Ethernet Card.
 
-[Download ISO](arctodusos.png)
+[Download ISO](img/arctodusos.png)
 NOTE: working on it...
